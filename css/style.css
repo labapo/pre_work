@@ -1,0 +1,103 @@
+	body {
+		background-color: #718BA3;
+		font-family: Fantasy;
+		color: #FFEFD5;
+	}
+	#aboutme {
+		font-size: 20;
+		color: white;
+		font-style:bold;
+		text-align: center;
+	}
+	.center {
+	  	display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	  	width: 20%;}
+	h1{
+		color: #CD853F;
+	}
+	h2{
+		color: #DDA0DD;
+	}
+	h3{
+		color: #FFDAB9;
+	}
+	h4{
+		color: #FFDAB9;
+	}
+	 p {
+ 	 margin: 10px 10px 10px 10px;
+	}
+	form{
+		display: inline-block;
+		padding: 10px 20px 20px 20px;
+		align-content: left;
+		background-color: gray;
+		border-color: white;
+		border-width: 2px;
+		border-style: solid;
+		width: 20%;
+	}
+	button{
+		background-color: lightblue;
+		border-radius: 12px;
+		color: darkblue;
+	}
+	.map{
+		background-position: center;
+		object-position: center;
+		background-color: white;
+		width: 500px;
+  		height: 500px;
+  		border: 2px solid #c3c3c3;
+  		align-content: center;
+  		display: flex;
+  		}
+	 p {
+ 	 margin: 10px 10px 10px 10px;
+	}
+	div {
+  	padding: 35px 35px;
+  	text-align: center;
+	}
+	#hobbies {
+		text-align: center;
+	}
+	.sticky {
+		position: sticky;
+		text-align: left;
+		top: 0;
+  		background-color: lightgray;
+  		border: 2px solid white;
+  		max-width: 350 px;
+  		padding: 1 px 1 px;
+	}
+	.navoption1 {
+		text-align: center;
+	}
+	Float Example
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.parent {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.parent {
+	position: relative;
+	left: 10 px;
+}
+
+.child {
+	Position: relative;
+	left: 10 px;
+}
